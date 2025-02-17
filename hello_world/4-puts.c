@@ -1,7 +1,5 @@
 #include <stdio.h>
 /**
-*
-*
 *This functicd on main prints a message to the console
 */
 int main(void)
