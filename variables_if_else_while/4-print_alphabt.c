@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  *
- *main -entry point
+ * main function prints the full lowercase alphabet and
+ * uppercase alphabet and a new line.
  *
- *return 0 (success)
+ * Return: always 0 (success)
  */
 
 int main (void)
 {
 char c;
-for(c = 'a' ; c <= 'z' ; c++)
+for (c = 'a' ; c <= 'z' ; c++)
 {
-if(c == 'q' || c == 'e')
+if (c == 'q' || c == 'e')
 {
 continue;
 }
