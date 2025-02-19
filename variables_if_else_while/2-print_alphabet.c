@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- *main - entry point
+ * main - Entry point
  *
- *return: Always 0 (success)
+ * main function prints the full alphabet and a new line.
+ *
+ * Return: always 0 (success)
  */
 
 int main(void)
