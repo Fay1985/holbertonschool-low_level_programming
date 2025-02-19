@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *
  *main - entry point
- *for loop- loops over the alphabet from a to z
+ *
+ *return: Always 0 (success)
  */
 
 int main(void)
