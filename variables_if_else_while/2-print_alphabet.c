@@ -3,7 +3,6 @@
 /**
  *
  *main - entry point
- *
  *for loop- loops over the alphabet from a to z
  */
 
