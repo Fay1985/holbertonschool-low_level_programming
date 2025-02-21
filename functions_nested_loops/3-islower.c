@@ -6,5 +6,12 @@
  */
 int _islower(int c)
 {
-	return (c >= 97 && c <= 122) ? _putchar(1) : _putchar(0);
+	if (c >= 'a' && c <= 'z')
+	{
+	return (1);
+	}
+	else
+	{
+	return (0);
+	}
 }
