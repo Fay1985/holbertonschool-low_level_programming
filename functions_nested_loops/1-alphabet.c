@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * main - Entry poin
- *
- * Return: Always 0 (Success)
+ * print_alphabet - print alphabet
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
-	for(i = 97; i < 122; i++)
+
+	for (i = 97; i <= 122; i++)
 	{
-		_putchar(i);
+	_putchar(i);
 	}
 	_putchar(10);
-        return (0);
 }
-
