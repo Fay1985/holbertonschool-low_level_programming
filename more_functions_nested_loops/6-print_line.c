@@ -18,7 +18,7 @@ if (i <= 0)
 {
 _putchar('\n');
 }
-_putchar('-');
+_putchar('_');
 }
 _putchar('\n');
 }
