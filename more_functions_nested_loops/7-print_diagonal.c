@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /*
- *print_diagonal - fnction prints diagonally
- *
- *@n: takes an integer
- *
- *Return: returns adiagonal line.
- */
+* print_diagonal - fnction prints diagonally
+*
+*@n: takes an integer
+*
+*Return: returns adiagonal line.
+*/
 
 void print_diagonal(int n)
 {
