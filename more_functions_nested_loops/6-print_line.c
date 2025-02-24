@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * ptint_line - it prints a line.
+ *
+ *@n: it takes an integer.
+ *
+ *Return
+ */
+
+void print_line(int n)
+{
+int i;
+
+for (i = 0; i <= n; i++)
+{
+if (i <= 0)
+{
+_putchar('\n');
+}
+_putchar('-');
+}
+_putchar('\n');
+}
