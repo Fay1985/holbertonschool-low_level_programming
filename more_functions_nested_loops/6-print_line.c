@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ptint_line - it prints a line.
+ * print_line - it prints a line.
  *
  *@n: it takes an integer.
  *
