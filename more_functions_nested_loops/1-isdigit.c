@@ -4,12 +4,12 @@
 /**
  *_isdigit - function that checks of the argument is a digit.
  *@c: the parameter is an integer.
- *Retun: returns 1 if it's an integer and 0 if it is not.
+ *Return: returns 1 if it's an integer and 0 if it is not.
  */
 
 int _isdigit(int c)
 {
-if (c >= 48 && c >= 57)
+if (c >= '0' && c <= '9')
 return (1);
 else
 {
