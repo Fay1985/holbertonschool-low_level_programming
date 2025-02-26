@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * _atoi - function to convert to integer.
+ *
+ *@: takes a char argument
+ *Return: the int value of char.
+ */
 int _atoi(char *s)
 {
 int i = 0;
@@ -24,12 +30,10 @@ else
 i++;
 }
 }
-
 while (s[i] >= '0' && s[i] <= '9')
 {
 result = result * 10 + (s[i] - '0');
 i++;
 }
-
-return (sign * result);
+return (sign *result);
 }
