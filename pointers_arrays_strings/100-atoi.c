@@ -5,7 +5,7 @@
 /**
  * _atoi - function to convert to integer.
  *
- *@: takes a char argument
+ *@s: takes a char argument
  *Return: the int value of char.
  */
 int _atoi(char *s)
