@@ -6,5 +6,6 @@ int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _atoi(char *s);
+void print_array(int *a, int n);
 
 #endif
