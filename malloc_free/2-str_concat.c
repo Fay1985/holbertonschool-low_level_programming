@@ -1,5 +1,12 @@
 #include <stdlib.h>
 
+/**
+*str_concat- it concatenates two strings.
+*@s1: first string to concatenate.
+*@s2: second string to concatenate
+*Return: the concatenated strings.
+ */
+
 char *str_concat(char *s1, char *s2) {
     char *result;
     unsigned int len1 = 0, len2 = 0, i, j;
