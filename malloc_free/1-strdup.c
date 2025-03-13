@@ -8,30 +8,30 @@
 
 
 char *_strdup(char *str) {
-    char *dup_str;
-    unsigned int i, j;
+char *dup_str;
+unsigned int i, j;
 
-    if (str == NULL)
-        return NULL;
+if (str == NULL)
+return NULL;
 
-    /* Find the length of the string */
-    i = 0;
-    while (str[i] != '\0') {
-        i++;
-    }
+/* Find the length of the string */
+i = 0;
+while (str[i] != '\0') {
+i++;
+}
 
-    /* Allocate memory for the new string */
-    dup_str = (char *)malloc((i + 1) * sizeof(char));
-    if (dup_str == NULL)
-        return NULL;
+/* Allocate memory for the new string */
+dup_str = (char *)malloc((i + 1) * sizeof(char));
+if (dup_str == NULL)
+return NULL;
 
-    /* Copy the string into the new allocated space */
-    for (j = 0; j < i; j++) {
-        dup_str[j] = str[j];
-    }
+/* Copy the string into the new allocated space */
+for (j = 0; j < i; j++) {
+dup_str[j] = str[j];
+}
 
-    /* Null-terminate the new string */
-    dup_str[i] = '\0';
+/* Null-terminate the new string */
+dup_str[i] = '\0';
 
-    return dup_str;
+return dup_str;
 }
